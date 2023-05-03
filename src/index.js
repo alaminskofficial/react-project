@@ -2,27 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-// import reportWebVitals from './reportWebVitals';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const fname = "Sk";
-const lname = "Alamin";
-// const currentDate = new Date().toLocaleDateString();
-// const currentTime =  new Date().toLocaleTimeString();
-root.render(
-  //  <React.StrictMode>
-  //    <App />
-  //   </React.StrictMode>
-//  <h1> Date is ={currentDate}</h1>
-//   <h1>Time is = {currentTime}</h1>
 
-  // <><h1 className='heading'> {` I am  ${fname} ${lname}`}</h1>
-  // <div className='imgCss'>
-  // <img src='https://picsum.photos/200/300' alt='randomImage'/>
-  // <img src='https://picsum.photos/250/300' alt='randomImage'/>
-  // <img src='https://picsum.photos/300/300' alt='randomImage'/></div>
+root.render(
   <App />
-  //</>
+  
 );
 
 
